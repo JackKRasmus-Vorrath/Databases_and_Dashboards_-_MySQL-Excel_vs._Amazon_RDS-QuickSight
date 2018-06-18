@@ -23,8 +23,8 @@ CREATE TABLE mydb_raw (			#create temporary holding table
 	BUSINESS_UNIT varchar(255)
 );
 
-#LOAD DATA LOCAL INFILE 'C:/Users/jkras/Desktop/MFG10YearTerminationData_2.csv'	 #load in
-LOAD DATA LOCAL INFILE 'C:/Users/nmsha/Documents/SMU/Databases/Projects/Term Project/Dataset/MFG10YearTerminationData.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/jkras/Desktop/MFG10YearTerminationData.csv'	 #load in
+#LOAD DATA LOCAL INFILE 'C:/Users/nmsha/Documents/SMU/Databases/Projects/Term Project/Dataset/MFG10YearTerminationData.csv'
 
 
 INTO TABLE mydb.mydb_raw		#use temporary holding table
